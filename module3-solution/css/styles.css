@@ -1,0 +1,168 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/*Body Header*/
+.navbar{
+  background-color: #3399ff ;
+
+}
+
+.navbar .navbar-brand{
+	color: #ffffff;
+	font-size: 1.8em;
+
+}
+
+.navbar .navbar-nav{
+	text-align: center;
+	background-color: #9999ff;
+	font-size: 1.6em; 
+	font-style: italic;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*End of Body Header*/
+body{
+	margin: 10px 10px 10px 10px;
+}
+
+/*main content*/
+
+#Top-heading{
+	margin-bottom: 30px;
+}
+
+
+.row{
+ 
+ width: 100%
+
+}
+
+.row > div{
+
+	box-sizing: border-box;
+	background-color: #cccccc;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+} 
+
+h3{
+	margin-top: 5px; 
+	font-size: 1.6em;
+	color: #ff99cc;
+	font-style: italic;
+}
+
+p{
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#chicken{
+	margin-left: 30px;
+}
+
+#beef{
+	margin-left: 30px;
+}
+
+
+#sushi{
+	margin-left: 30px;
+}   
+
+/*end of main content*/
+
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px){
+.col-sm-6 {
+    width: 46%;
+}
+
+.col-sm-12{
+	width: 96%
+}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+.col-md-6 {
+    width: 46%;
+}
+
+.col-md-12 {
+	width: 95.7%;
+}
+
+.row > div{
+	box-sizing: border-box;
+	background-color: #cccccc;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+}
+
+h3{
+	margin-top: 5px;
+}
+
+@media (min-width: 1200px){
+.col-lg-4 {
+    width: 30%;
+}
+
+.row > div{
+
+	box-sizing: border-box;
+	background-color: #cccccc;
+	padding-left: 10px;
+	padding-right: 10px;
+} 
+
+
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px){
+
+.col-xs-12{
+	width: 95%
+}
+
+	#chicken{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#beef{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+#sushi{
+	margin-left: 30px;
+	margin-right: 30px;
+} 
+
+	.row{
+		margin-right: 20px; 
+	}
+
+
+	
+
+}
